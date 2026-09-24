@@ -53,9 +53,7 @@ Full site plus a filter plugin replacing three or four stacked plugins — Year,
 
 ## How I work
 
-AI-assisted development is my normal workflow, not an experiment. I plan and build in Claude Code daily, and most of the value is knowing where the output needs checking line by line — reviewing generated code is a skill in itself, and it's the part that separates shipping from breaking production.
-
-I work on staging before production, document what I changed, and send short written progress updates by default.
+I work on staging before production, document what I changed, and send short written progress updates by default. I take ownership of a codebase end to end — schema, API, interface and deployment — and I'll tell a client when an off-the-shelf tool would genuinely be cheaper than hiring me to build one.
 
 ---
 
