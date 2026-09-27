@@ -1,6 +1,6 @@
 # Halleluyah Salako
 
-**Full-stack developer — WordPress & PHP, TypeScript, React Native.** Abuja, Nigeria (UTC+1).
+**Full-stack developer, WordPress & PHP, TypeScript, React Native.** Abuja, Nigeria (UTC+1).
 
 I build production systems and the internal tools that run them: custom plugins instead of plugin sprawl, payment and API integrations, and admin dashboards non-technical teams can actually operate without calling a developer.
 
@@ -10,21 +10,21 @@ Nine years of client work. Currently contracting for a global health nonprofit, 
 
 ## Selected work
 
-### Veterinary Career Guide — [vetcareerguide.com](https://vetcareerguide.com)
+### Veterinary Career Guide, [vetcareerguide.com](https://vetcareerguide.com)
 A subscription commerce and publishing platform carried entirely by one custom WordPress plugin I wrote from scratch, plus a theme built specifically for it.
 
-- **Custom subscription billing** written directly against the Paystack, Flutterwave and Stripe APIs — not their built-in subscription products — with WP Cron tracking each member's billing date and charging on schedule
-- **Geo-routed payments** — the gateway is selected automatically by visitor country
-- **Multi-currency** — prices held in Naira, converted from detected location, with manual override
-- **Fulfilment** — per-buyer ebook watermarking; hardcopy purchases redeemed via codes printed in the physical book
-- **Member dashboard** — progress tracker with calendar, to-do list, habit tracker and goal tracking
-- Coupons (standard, group, email-targeted), early-bird pricing, stock management — each with admin screens for non-technical staff
+- **Custom subscription billing** written directly against the Paystack, Flutterwave and Stripe APIs, not their built-in subscription products, with WP Cron tracking each member's billing date and charging on schedule
+- **Geo-routed payments**, the gateway is selected automatically by visitor country
+- **Multi-currency**, prices held in Naira, converted from detected location, with manual override
+- **Fulfilment**, per-buyer ebook watermarking; hardcopy purchases redeemed via codes printed in the physical book
+- **Member dashboard**, progress tracker with calendar, to-do list, habit tracker and goal tracking
+- Coupons (standard, group, email-targeted), early-bird pricing, stock management, each with admin screens for non-technical staff
 
-### AFIWEL — [afiwel.com](https://afiwel.com)
+### AFIWEL, [afiwel.com](https://afiwel.com)
 Full site plus a Resources plugin serving 59 publications across an 11-country programme. One plugin replaced four: its own custom post type and fields in place of ACF, exposed as a custom Elementor widget, owning its query, filtering and pagination. Auto-generates download actions and share links for eight platforms on publish.
 
-### One Health & Development Initiative — [onehealthdev.org](https://onehealthdev.org)
-Full site plus a filter plugin replacing three or four stacked plugins — Year, Category and keyword filtering with its own query, results and pagination, available as both a shortcode and an Elementor widget.
+### One Health & Development Initiative, [onehealthdev.org](https://onehealthdev.org)
+Full site plus a filter plugin replacing three or four stacked plugins, Year, Category and keyword filtering with its own query, results and pagination, available as both a shortcode and an Elementor widget.
 
 ### Also built and maintained
 [agrowsafe.com](https://agrowsafe.com) · [onehealthv.com](https://onehealthv.com)
@@ -33,9 +33,17 @@ Full site plus a filter plugin replacing three or four stacked plugins — Year,
 
 ## Open source
 
-**[Hal-Cartel](https://github.com/Halleluyahsalako/Hal-Cartel)** — a lightweight, security-conscious eCommerce plugin for WordPress; a free alternative to WooCommerce plus its paid extensions. One-page checkout, a pluggable payment-gateway architecture, Stripe PaymentIntents with signed idempotent webhooks, an abandoned-order cron that restocks stale orders, signed expiring download tokens, multi-currency, per-zone shipping, WooCommerce-compatible CSV import/export. *In active development.*
+**[Inline Checkout for WooCommerce](https://github.com/Halleluyahsalako/wc-inline-checkout)**, Buy Now and a one page checkout with Paystack and Flutterwave collected inline. Payments are verified server side: the reference is bound to its order, then confirmed against the gateway API for status, currency and amount before anything is completed. Handles subunit conversion, reference replay and fee-net settlement, which are the three ways this usually goes wrong.
 
-**[ctrl-freak](https://github.com/Halleluyahsalako/ctrl-freak)** — Kotlin Android app for syncing clipboard, notes and files between phone and computer.
+**[Resource Library](https://github.com/Halleluyahsalako/wp-resource-library)**, A filterable document library. One plugin instead of four, with type and subject as taxonomies so the vocabulary belongs to whoever installs it. No jQuery.
+
+**[Cascading Post Filter](https://github.com/Halleluyahsalako/wp-cascading-post-filter)**, AJAX archive filter with a parent taxonomy select that reveals a child select on demand. Owns its own WP_Query, so it does not break when a page builder updates.
+
+**[Cartel](https://github.com/Halleluyahsalako/Hal-Cartel)**, A lightweight, security conscious eCommerce plugin for WordPress: pluggable payment gateways, Stripe PaymentIntents with signed idempotent webhooks, an abandoned order cron, signed expiring download tokens, multi currency and per zone shipping. In active development.
+
+**[WordPress snippets](https://github.com/Halleluyahsalako/wordpress-snippets)**, Single purpose solutions from client work: a recurring event engine for rules events plugins cannot express, and retargeting a theme's hamburger at your own menu panel.
+
+**[ctrl-freak](https://github.com/Halleluyahsalako/ctrl-freak)**, Kotlin Android app for syncing clipboard, notes and files between phone and computer.
 
 ---
 
@@ -53,7 +61,7 @@ Full site plus a filter plugin replacing three or four stacked plugins — Year,
 
 ## How I work
 
-I work on staging before production, document what I changed, and send short written progress updates by default. I take ownership of a codebase end to end — schema, API, interface and deployment — and I'll tell a client when an off-the-shelf tool would genuinely be cheaper than hiring me to build one.
+I work on staging before production, document what I changed, and send short written progress updates by default. I take ownership of a codebase end to end, schema, API, interface and deployment, and I'll tell a client when an off-the-shelf tool would genuinely be cheaper than hiring me to build one.
 
 ---
 
@@ -63,4 +71,4 @@ Django Girls mentor since the first Ogbomoso workshop in 2016; Abuja chapter thr
 
 ---
 
-**Get in touch** — halleluyaholuwapelumi42@gmail.com
+**Get in touch**, halleluyaholuwapelumi42@gmail.com
