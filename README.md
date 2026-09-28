@@ -4,7 +4,7 @@
 
 I build production systems and the internal tools that run them: custom plugins instead of plugin sprawl, payment and API integrations, and admin dashboards non-technical teams can actually operate without calling a developer.
 
-Nine years of client work. Currently contracting for a global health nonprofit, building both their web estate and an internal records platform.
+Nine years of client work. Currently contracting for a global health nonprofit, building both their web estate and an internal platform for their field and office teams.
 
 ---
 
